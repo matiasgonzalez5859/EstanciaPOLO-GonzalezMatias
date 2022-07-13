@@ -1,0 +1,98 @@
+.header_content {
+    background-color: #403501;
+    color: #0f0e0e;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    }
+    .content_title {
+        color: #f8f8f8;
+        font-size: 30px;
+     }
+     
+     .content_navbar {
+        display: flex;
+     }
+     
+     &content_navbar li {
+        margin: 0 15px;
+     
+     }
+     
+     &content_navbar li a {
+        color: #f8f8f8;
+        font-weight: bold;
+     }
+     
+     .title_p {
+        font-size: 30px;
+        color: #f8f8f8;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
+     
+     .title_o {
+        font-size: 30px;
+        color: #f8f8f8;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
+     .title_back{
+        font-size: 30px;
+        color:#D9B64E;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
+     
+     .card__grind {
+        grid-template-columns: repeat(3, 1fr);
+        display: grid;
+        gap: 50px;
+     
+     .card {
+        background-color: #fff;
+        padding: 20px;
+        width: 400px;
+        border-radius: 10px;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+     
+     }
+     .card__title{
+        margin-bottom: 20px;
+     }
+     .card__description{
+        margin-bottom: 40px;
+     }
+     .card__header {
+        position: relative;
+     }
+     .card__header--strong{
+        text-transform: uppercase;
+        font-weight: bold;
+     }
+     .card__link{
+        background-color: #0f0e0e;
+        color: #f8f8f8;
+        width: 100%;
+        display: inline-block;
+        border-radius: 10px;
+        padding: 15px;
+        text-align: center;
+     }
+     
+     .card__header img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 20px;
+     }
+     
+     .card__header small {
+        background-color: rgba(255, 255, 255, 0.5);
+        color: #fff;
+        padding: 8px;
+        position: absolute;
+        right: 0;
+        border-bottom-left-radius: 10px;
+     }
+     
+     
+    
+ 
+}

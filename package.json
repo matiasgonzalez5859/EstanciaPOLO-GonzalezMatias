@@ -1,0 +1,22 @@
+{
+  "name": "probando-1223",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --include-path sass sass/index.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiasgonzalez5859/EstanciaPOLO-GonzalezMatias.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matiasgonzalez5859/EstanciaPOLO-GonzalezMatias/issues"
+  },
+  "homepage": "https://github.com/matiasgonzalez5859/EstanciaPOLO-GonzalezMatias#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

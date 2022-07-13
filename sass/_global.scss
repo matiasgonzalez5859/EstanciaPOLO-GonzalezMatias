@@ -1,0 +1,76 @@
+body {
+    font-size: 10px;
+    background-color: #2c905c;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif; }
+   
+
+
+
+.presentation_a {
+    font-size: 30px;
+    color: #A68D44;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+ }
+ .presentation_b {
+    font-size: 30px;
+    color: #f8f8f8;
+    width: 900px;
+    height: 300px;
+ }
+ .presentation_c {
+    font-size: 30px;
+    color: #f8f8f8;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+ }
+ .presentation_d {
+    font-size: 40px;
+    color: #f8f8f8;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ span{
+    display: none;
+ }
+
+ @media(max-width: 768px){
+    .content_navbar{
+       flex-direction: column;
+    }
+    .grind{
+       grid-template-columns: 1fr;
+    }
+ }
+ @media (max-width: 480px){
+    .content_navbar{
+       display: none;
+    }
+    span{
+       display:inline-block;
+     font-size: 50px;
+    }
+    .content_navbar{
+       flex-direction: row;
+       align-items: center;
+    }
+ }
+ @media(max-width: 992px){
+    .card__grind{
+       grid-template-columns:repeat(2,1fr)
+    }
+ }
+ @media(max-width: 576px){
+    .card__grind{
+       grid-template-columns: 1fr
+    }
+ }
+ 
+ @media(max-width:576px){
+    .presentation_b{
+       width: 600px;
+       height: 500px;
+    }
+ }

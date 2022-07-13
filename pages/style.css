@@ -12,14 +12,14 @@
    justify-content: space-between;
 }
 
-body {
+/*body {
    font-size: 10px;
    background-image: url(./assets-polo/pexels-milena-de-narvaez-ayllon-2889030.jpg);
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
    font-family: Arial, Helvetica, sans-serif;
-}
+}*/
 .body__servicios {
    font-size: 10px;
    background-image: url(./assets-polo/campo-fondo.png.jpg);
@@ -105,28 +105,7 @@ body {
    color:#D9B64E;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.presentation_a {
-   font-size: 30px;
-   color: #A68D44;
-   font-family: Arial, Helvetica, sans-serif;
 
-}
-.presentation_b {
-   font-size: 30px;
-   color: #f8f8f8;
-   width: 900px;
-   height: 300px;
-}
-.presentation_c {
-   font-size: 30px;
-   color: #f8f8f8;
-   font-family:Georgia, 'Times New Roman', Times, serif;
-}
-.presentation_d {
-   font-size: 40px;
-   color: #f8f8f8;
-   font-family: Arial, Helvetica, sans-serif;
-}
 
 
 .card {
